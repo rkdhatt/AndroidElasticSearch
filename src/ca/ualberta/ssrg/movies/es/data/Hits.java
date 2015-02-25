@@ -4,6 +4,8 @@ import java.util.List;
 
 
 public class Hits<T> {
+	
+	// Saves hits info from elastic search
 	private int total;
 	private float max_score;
 	private List<SearchHit<T>> hits;

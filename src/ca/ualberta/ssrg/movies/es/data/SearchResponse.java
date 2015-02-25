@@ -3,6 +3,7 @@ package ca.ualberta.ssrg.movies.es.data;
 
 public class SearchResponse<T> {
 
+	// saves stuff from elastic search
 	private int took;
 	private boolean timed_out;
 	private Shard _shards;

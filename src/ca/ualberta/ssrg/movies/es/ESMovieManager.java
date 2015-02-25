@@ -53,6 +53,7 @@ public class ESMovieManager implements IMovieManager {
 			return sr.getSource();
 
 		} catch (Exception e) {
+			//DON' DO THIS
 			e.printStackTrace();
 		} 
 
